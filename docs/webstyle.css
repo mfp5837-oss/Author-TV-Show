@@ -1,10 +1,27 @@
-
-body {
-background-color: BurlyWood;
-color: indigo;
-font-family: arial, helvetica, sans-serif;
-}
-ol {list-style-type: lower-alpha;
-padding: 5em;
+body { /*background:papayaWhip*/background: url(images/arthur.png);
+    font-family: Arial, Avantgarde, sans-serif;}
     
-}
+div.side-by-side {
+  display: flex; width: 80%; float:right}
+
+img {width: 59%; max-width: 500px;}
+
+.featureBlock {background-color:orange; font-size: smaller;}
+
+.image {float:right; width:40%; max-width:300px;border:dotted; border-color:white}
+
+.button {color:white; font-family:roman, 'times new roman', times, serif;}
+
+.box {border-style:dashed; border-color:blue; margin:5%}
+
+div.threeD{}
+div.threeD iframe{width:90%; max-width:1280px; max-height:840px;}
+
+.text{float:bottom}
+
+.footer{width: 90%}
+
+.imgzoom{display: flex; flex-flow: row wrap; align-items: center; width: 75%; margin: 15px auto; padding: 1%; border-radius: 12px;}
+    
+
+.imgzoom img:hover {transform: scale(1.4);}
